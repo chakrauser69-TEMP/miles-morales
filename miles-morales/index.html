@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miles Morales — Brooklyn's Spider-Man</title>
+  <meta name="description" content="A Spider-Verse inspired landing page for Miles Morales, the friendly neighborhood Spider-Man from Brooklyn." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Miles Morales home">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">MILES<span class="dot">.</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#powers">Powers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">Say Hi</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main class="bento" id="gallery-grid">
+    <!-- HERO -->
+    <section class="cell b-hero reveal">
+      <p class="eyebrow">Earth-1610 &middot; Brooklyn, NY</p>
+      <h1 class="glitch" data-text="MILES MORALES">MILES MORALES</h1>
+      <p class="hero-sub">Your friendly neighborhood Spider-Man. Part-time hero, full-time artist, all the way from Brooklyn.</p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">Discover</a>
+        <a href="#powers" class="btn btn-ghost">Powers</a>
+      </div>
+      <div class="hero-tags">
+        <span>Web-Slinger</span><span>Spider-Sense</span><span>Venom Blast</span>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="cell b-stats reveal">
+      <div class="stat"><strong>1610</strong><span>Universe</span></div>
+      <div class="stat"><strong>13</strong><span>Street Artist</span></div>
+      <div class="stat"><strong>∞</strong><span>Heart</span></div>
+    </section>
+
+    <!-- PORTRAIT IMAGE -->
+    <figure class="cell b-portrait media reveal" data-caption="Brooklyn is home.">
+      <img src="assets/hero.jpg" alt="Brooklyn Botanic Garden panorama in New York" loading="lazy" />
+      <figcaption>Brooklyn is home.</figcaption>
+    </figure>
+
+    <!-- ABOUT -->
+    <section class="cell b-about reveal" id="about">
+      <h2>Who is Miles?</h2>
+      <p>
+        Bitten by a genetically engineered spider, Miles gained powers all his own — camouflage,
+        a paralyzing venom strike, and a spider-sense that keeps him one step ahead.
+      </p>
+      <p>
+        Between algebra tests and rooftop patrols, he paints the city in spray paint and proves
+        that anyone can wear the mask.
+      </p>
+    </section>
+
+    <!-- CITY IMAGE -->
+    <figure class="cell b-city media reveal" data-caption="City lights, spidey nights.">
+      <img src="assets/city.jpg" alt="New York City skyline at night" loading="lazy" />
+      <figcaption>City lights, spidey nights.</figcaption>
+    </figure>
+
+    <!-- POWERS -->
+    <section class="cell b-powers reveal" id="powers">
+      <h2>Spider Powers</h2>
+      <ul class="powers">
+        <li><span class="p-ico">🕷️</span> Wall-Crawling</li>
+        <li><span class="p-ico">💥</span> Venom Blast</li>
+        <li><span class="p-ico">👻</span> Camouflage</li>
+        <li><span class="p-ico">🕸️</span> Web-Slinging</li>
+        <li><span class="p-ico">⚡</span> Super Agility</li>
+        <li><span class="p-ico">🧠</span> Spider-Sense</li>
+      </ul>
+    </section>
+
+    <!-- GRAFFITI IMAGE -->
+    <figure class="cell b-graffiti media reveal" data-caption="Paint the city red.">
+      <img src="assets/graffiti.jpg" alt="Colorful graffiti on a concrete wall" loading="lazy" />
+      <figcaption>Paint the city red.</figcaption>
+    </figure>
+
+    <!-- QUOTE -->
+    <section class="cell b-quote reveal">
+      <blockquote>
+        “Anyone can wear the mask. You could wear the mask. If you didn't know that before, I hope you do now.”
+      </blockquote>
+      <cite>— Miles Morales</cite>
+    </section>
+
+    <!-- SNEAKERS IMAGE -->
+    <figure class="cell b-sneakers media reveal" data-caption="Fresh kicks, fresh swings.">
+      <img src="assets/sneakers.jpg" alt="A pair of sneakers" loading="lazy" />
+      <figcaption>Fresh kicks, fresh swings.</figcaption>
+    </figure>
+
+    <!-- MUSIC -->
+    <section class="cell b-music reveal">
+      <h2>On Loop</h2>
+      <p class="muted">Beats for the swing home.</p>
+      <div class="equalizer" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <img class="music-thumb" src="assets/headphones.jpg" alt="Studio headphones" loading="lazy" />
+    </section>
+
+    <!-- WEB IMAGE -->
+    <figure class="cell b-web media reveal" data-caption="Caught in the web.">
+      <img src="assets/web.jpg" alt="A spider web" loading="lazy" />
+      <figcaption>Caught in the web.</figcaption>
+    </figure>
+
+    <!-- COMIC IMAGE -->
+    <figure class="cell b-comic media reveal" data-caption="Issue #1610.">
+      <img src="assets/comic.jpg" alt="Comic books on display" loading="lazy" />
+      <figcaption>Issue #1610.</figcaption>
+    </figure>
+
+    <!-- CTA -->
+    <section class="cell b-cta reveal" id="contact">
+      <h2>Let's team up.</h2>
+      <p>Got a rooftop to save or a zine to make? Drop a line.</p>
+      <a href="mailto:hello@miles-morales.dev" class="btn btn-primary">hello@miles-morales.dev</a>
+      <div class="socials">
+        <a href="#top">Instagram</a><a href="#top">Dribbble</a><a href="#top">YouTube</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Fan-made concept page. Not affiliated with Marvel or Sony. Images via Wikimedia Commons.</p>
+    <p class="muted">© <span id="year"></span> Miles Morales Landing.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" alt="" />
+    <p id="lightbox-cap"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
